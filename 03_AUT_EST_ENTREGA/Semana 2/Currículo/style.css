@@ -1,0 +1,55 @@
+.main{
+    background-color: #ffffff;
+    width: 980px;
+    margin:0 auto;
+}
+ul{
+    padding: 0px!important;
+}
+
+.header{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+.menu-urls{
+    height: 70px;
+    border-bottom: 10px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 30px;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: #00bac6;
+}
+.menu{
+    width:80%;
+    float: left;
+}
+.busca{
+    margin-top: -50px;
+    text-align: center;
+    width:20%;
+    float: right;
+}
+.busca input{
+    height: 30px;
+    padding-left: 15px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+}
+.centro{
+    font-size: 18px;
+    text-align: center;
+    background-color: aqua;
+}
