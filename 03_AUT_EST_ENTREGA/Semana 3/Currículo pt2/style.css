@@ -1,0 +1,157 @@
+main, .content texto-destaque{
+    background-color: #ffffff;
+    margin:0 auto;
+    position: relative;
+    width: 100%;
+}
+ul{
+    padding: 0px!important;
+}
+
+.header{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 1%;
+}
+.main{
+    background-color: #ffffff;
+    margin-block-start: 0;
+}
+.menu-urls{
+    height: 70px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 5%;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: #00bac6;
+}
+.menu{
+    width:80%;
+    float: left;
+}
+.busca{
+    margin-top: -50px;
+    text-align: center;
+    width:20%;
+    float: right;
+}
+.busca input{
+    height: 30px;
+    padding-left: 15px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+}
+.centro{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 980px;
+    margin:0 auto;
+}
+.letras{
+    margin-block-start: 0;
+}
+.texto-destaque h1 {
+    color: #bbbbbb;
+}
+.texto-destaque strong {
+    color: #ffffff;
+}
+.texto-destaque h2 {
+    font-size: 18px;
+    color: #ebebeb;
+}
+.texto-destaque p {
+    font-size: 18px;
+    color: #bbbbbb;
+}
+.logo1{
+    width: 23%;
+    height: 23%;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.circle{
+    border-radius: 50%;
+    width: 20%;
+    margin-left: 120px;
+}
+.logo2{
+    width: 15%;
+    margin-left: 170px;
+}
+.bloco{
+    display: flex;
+    width: 100%;
+}
+body{
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1305/smoke_fire-Abstract_design_wallpaper_1366x768.jpg);
+    background-size: 100%;
+}
+.texto-ambev{
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.texto-bit{
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+.logoa{
+    width: 23%;
+    height: 23%;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.logob{
+    width: 20%;
+    height: 20%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.margin1{
+    margin-top: -30;
+}
+.letras2{
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+.t1{
+    margin-left: 229px;
+    margin-top: 80px;
+}
+.t2{
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.t3{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.simbo1{
+    color: white;
+    font-size: 30px;
+    margin-top: 70px;
+}
+.simbo2{
+        color: white;
+    font-size: 30px;
+    margin-top: 70px;
+}
+.simbo3{
+    color: white;
+    font-size: 35px;
+    margin-top: 65px;
+}
