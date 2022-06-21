@@ -31,3 +31,25 @@ function nomes(){
     nomes = nomes.sort();
     document.getElementById("resultado2").innerHTML = nomes
 }
+
+function aparecer(){
+    num = document.getElementById("nesimo").value;
+    penultimo = 0;
+    ultimo = 1;
+    var numero;
+    array = [1];
+
+    if(num <= 2){
+        numero = num - 1
+        array.push(numero)
+    } else{
+        debugger
+        for (var i = 2; i <= num; i++){
+            numero = ultimo + penultimo;
+            penultimo = ultimo
+            ultimo = numero
+            array.push(numero)
+        }
+    }
+    document.getElementById("resultado3").innerHTML = array
+}
