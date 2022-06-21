@@ -43,7 +43,6 @@ function aparecer(){
         numero = num - 1
         array.push(numero)
     } else{
-        debugger
         for (var i = 2; i <= num; i++){
             numero = ultimo + penultimo;
             penultimo = ultimo
@@ -52,4 +51,23 @@ function aparecer(){
         }
     }
     document.getElementById("resultado3").innerHTML = array
+}
+
+function primos(){
+    debugger
+    var minimo = Number(document.getElementById("numero1").value)
+    var maximo = document.getElementById("numero2").value
+    var primos = 0
+
+    for(var index=minimo+1; index < maximo; index++){
+        var counter = 0
+        for(var i = 0; i < index+1; i++){
+            if(index % i == 0)
+            counter += 1
+        }
+        if (counter == 2){
+            primos += 1
+        }
+    } 
+    document.getElementById("resultado4").innerHTML = "Existem " + primos + " números primos."
 }
